@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Bootstrap</title>
+            <link rel="stylesheet" href="bootstrap.css">
+            <script type="text/javascript" src="jquery-slim.min.js"></script>
+            <script type="text/javascript" src="bootstrap.js"></script>
+        </head>
+        <body>
+        <div class="container">
+            <h2>Contoh Card Dengan Image</h2>
+            </hr>
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="p.jpg" alt="Card image" style="width: 200px; height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-tittle">Mahasiswa</h4>
+                    <p class="card-text">Nama : Zala Nur Ilahi Rahman<br>NIM : 21510019<br>Prodi : Sistem Informasi</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Detail Info
+                      </button>
+                </div>
+            </div>
+        </div>
+        </body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  WhatsApp : 083850169027<br>
+                  Instagram : @zall.z3
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+</html>
